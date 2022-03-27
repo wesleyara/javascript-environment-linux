@@ -32,7 +32,8 @@ $ sh install.sh
 
 # Definindo o zsh como padrão
 $ code /etc/passwd
-# Altere a linha que está assim: wesley:x:1000:1000:Wesley,,,:/home/wesley:/usr/bin/bash, para wesley:x:1000:1000:Wesley,,,:/home/wesley:/usr/bin/zsh
+# Altere a linha que está assim: wesley:x:1000:1000:Wesley,,,:/home/wesley:/usr/bin/bash
+# para wesley:x:1000:1000:Wesley,,,:/home/wesley:/usr/bin/zsh
 
 # Invés de wesley, no seu computador, procure pela linha identica, porém com o seu nome de usuário.
 ```
