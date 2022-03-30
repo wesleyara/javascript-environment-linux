@@ -10,6 +10,7 @@ Todo o processo para instalar o ambiente JavaScript no Linux é mostrado atravé
 Para as seguintes distros:
 - [Ubuntu](/docs/Instala%C3%A7%C3%B5es.md)
 - [Mint](/docs/Instala%C3%A7%C3%B5es.md)
+- [Pop!_OS](/docs/Instala%C3%A7%C3%B5es.md)
 
 Siga o processo mostrado, que ao final estará tudo que é necessário.
 
