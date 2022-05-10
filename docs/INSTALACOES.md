@@ -71,6 +71,8 @@ $ sudo npm install -g yarn
 
 ## Instalando o Docker
 ```sh
+$ sudo apt install curl
+
 $ curl -fsSL https://get.docker.com -o get-docker.sh
 
 $ sh get-docker.sh
