@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 sudo apt update &&
 sudo apt install zsh git &&
 sudo apt install nodejs npm &&
