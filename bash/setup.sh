@@ -9,4 +9,6 @@ sudo npm install -g yarn &&
 sudo npm install -g typescript &&
 sudo apt-get install fonts-powerline &&
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh &&
-sh install.sh
+sh install.sh &&
+rm install.sh &&
+rm setup.sh
