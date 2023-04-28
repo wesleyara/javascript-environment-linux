@@ -1,16 +1,21 @@
 #!/usr/bin/env sh
 
 sudo apt update &&
-sudo apt install zsh git &&
-sudo apt install nodejs npm &&
-sudo npm cache clean -f &&
-sudo npm install -g n &&
-sudo n stable &&
-sudo npm install npm@latest -g &&
+sudo apt install zsh git curl fonts-powerline docker.io &&
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash &&
+source ~/.zshrc &&
+source ~/.bashrc &&
+nvm install 16.18.1 &&
+nvm use 16.18.1 &&
 sudo npm install -g yarn &&
 sudo npm install -g typescript &&
-sudo apt-get install fonts-powerline &&
-wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh &&
-sh install.sh &&
-rm install.sh &&
-rm setup.sh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" &&
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+
+
+git clone https://github.com/wesleyara/create-app $HOME/create-app &&
+chmod +x $HOME/create-app/script.sh &&
+sudo ln -s $HOME/create-app/script.sh /usr/bin/create-app
